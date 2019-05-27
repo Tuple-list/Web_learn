@@ -14,7 +14,9 @@
 # 该clearRect函数用于在每帧之前清除整个画布。
 # 
 
-var canvas = document.querySelector('canvas'),
+<canvas></canvas>
+<script type="text/javascript">
+  var canvas = document.querySelector('canvas'),
     ctx = canvas.getContext('2d');
 
 var resize = function () {
@@ -23,11 +25,8 @@ var resize = function () {
 };
 
 window.addEventListener('resize', resize);
-
 window.addEventListener('load', function () {
-
   resize();
-
   var pos, vel;
   pos = {
     x: 10,
@@ -53,3 +52,4 @@ window.addEventListener('load', function () {
 
   setInterval(loop, 1000 / 60);
 });
+</script>
