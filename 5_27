@@ -1,0 +1,10 @@
+
+# 该getContext函数检索了正确的上下文，该上下文是一个对象，其方法用于绘制，填充和修改画布。
+# 上面我们正在使用fillRect，它将矩形左上角的x和y位置作为前两个参数，宽度和高度尺寸作为后两个。
+<canvas></canvas>
+
+<script>
+    var canvas = document.querySelector('canvas'),
+        ctx = canvas.getContext('2d');
+    ctx.fillRect(10, 10, 10, 10);
+</script>
