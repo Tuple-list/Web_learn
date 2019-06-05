@@ -1,10 +1,10 @@
-web基础：
-
-  line-height       /* 利用行高把文字垂直居中 */
-  text-indent       /* 首行缩进*/
-  text-decoration：none;   /* 清除下划线 */
-  display：none;    /* 让元素彻底隐藏 */
-  box-shadow        /* 盒子阴影 */
+#web基础：
+----------------------------------------------------------------------------
+  ##line-height       /* 利用行高把文字垂直居中 */
+  ##text-indent       /* 首行缩进*/
+  ##text-decoration：none;   /* 清除下划线 */
+  ##display：none;    /* 让元素彻底隐藏 */
+  ##box-shadow        /* 盒子阴影 */
   vertical-align:middle;    /* 图片与旁边的内容的对其方式 */
   
   <!-- 引入Jquery 通过CDN 加速链接引入
