@@ -1,0 +1,25 @@
+web基础：
+
+  line-height       /* 利用行高把文字垂直居中 */
+  text-indent       /* 首行缩进*/
+  text-decoration：none;   /* 清除下划线 */
+  display：none;    /* 让元素彻底隐藏 */
+  box-shadow        /* 盒子阴影 */
+  vertical-align:middle;    /* 图片与旁边的内容的对其方式 */
+  
+  <!-- 引入Jquery 通过CDN 加速链接引入
+  <script type="text/javascipt src="http://*****"></script>
+  -->
+  
+  id , class 命名：id用于唯一的区域
+  pc网站  改变元素位置的样式属性只有：盒子模型，  浮动  ， 定位（绝对  相对  固定   静态(static)）
+  
+  >>>样式污染原因有：
+  >>>命名不规范   继承   优先级
+  
+  >>>那些样式会被继承：
+        所有的文本样式会被继承
+  >>>如何避免文本样式的污染：
+        跟文本有关的样式  全部都写在文本所在的元素里
+        千万不要把文本样式写在结构标签中
+  
