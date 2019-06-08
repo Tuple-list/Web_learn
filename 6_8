@@ -13,6 +13,34 @@
 >>![image](https://github.com/Tuple-list/Web_learn/blob/master/html-elements(%E6%A0%87%E7%AD%BE%EF%BC%89.jpg)
 
 
->>
+>> CSS
+数量符号：<length>（无则表示仅可出现一次） 
+         <color-stop>[, <color-stop>]+ (+ 可出现一次或多次)
+         inset?&&<color> (? 表示可选)
+         <length>{2,4} ({2,4} 可出现次数和最少最多出现次数)
+         <time>[, <time>]*（* 出现 0 次或多次）
+         <time>#（# 出现一次或者多次，用,分隔）   ## 合法：2s, 4s  不合法：1s 2s
 
->>
+>> 继承
+   子元素继承父元素的样式，但并不是所有属性都是默认继承的。
+   通过文档中的 inherited: yes 来判断属性是否可以自动继承。
+   
+自动继承属性：
+color
+font
+text-align
+list-style
+...
+
+非继承属性：
+background
+border
+position
+...
+
+
+
+
+
+
+
