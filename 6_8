@@ -1,0 +1,18 @@
+## 6.8 （http://wiki.jikexueyuan.com/list/javascript/  前端开发笔记）
+
+
+>>前端基础：
+<!--
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 移动端浏览器的宽高与缩放
+-->
+
+>> <body> 页面内容     <header> 文档头部 
+   <nav> 导航          <aside> 侧边栏  
+    <article> 定义外部内容（如外部引用的文章）  
+    <section> 一个独立的块 <footer> 尾部
+>>
+
+
+>>
+
+>>
